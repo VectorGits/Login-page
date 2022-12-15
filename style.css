@@ -22,7 +22,7 @@ h2 {
 
 .box {
     /* padding: 100px 0; */
-    background-image: linear-gradient(to right, #41105f, #302430);
+    /* background-image: linear-gradient(to right, #41105f, #302430); */
     color: #FFF;
     border: 3px solid green;
     height: 100vh;
@@ -112,9 +112,11 @@ label {
 }
 
 .btn1 {
+    display: inline;
     cursor: pointer;
     place-items: center;
     position: relative;
+    appearance: none;
     isolation: isolate;
     appearance: none;
     font-size: 0.9em;
@@ -122,10 +124,32 @@ label {
     background-color: #9747ff;
     color: #FFF;
     border-radius: 5.5px;
-    width: 30%;
+    width: 40%;
+    overflow: hidden;
+}
+
+.btn1::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 500ms;
+    z-index: -1;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #bee4dd7c;
+    opacity: 0.5;
+}
+
+.pulse::before {
+    animation: pulse 500ms;
 }
 
 .btn2 {
+    display: inline;
+    appearance: none;
     cursor: pointer;
     place-items: center;
     position: relative;
@@ -137,6 +161,26 @@ label {
     color: #FFF;
     margin: auto;
     border-radius: 5.5px;
+    overflow: hidden;
+}
+
+.btn2::before {
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 500ms;
+    z-index: -1;
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #bee4dd7c;
+    opacity: 0.5;
+}
+
+.pulse::before {
+    animation: pulse 500ms;
 }
 
 .lil_text {
@@ -146,4 +190,11 @@ label {
 
 .c-link {
     color: #e90ec4;
+}
+
+@keyframes pulse {
+    100% {
+        transform: translate(-50%, -50%) scale(1); 
+        opacity: 0;
+    }
 }
