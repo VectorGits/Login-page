@@ -24,7 +24,7 @@ h2 {
     /* padding: 100px 0; */
     /* background-image: linear-gradient(to right, #41105f, #302430); */
     color: #FFF;
-    /* border: 3px solid green; */
+    border: 3px solid green;
     /* height: 100vh; */
     max-width: 1024px;
     margin: auto;
@@ -32,6 +32,7 @@ h2 {
 
 .row {
     display: flex;
+    border: 2px solid rgb(216, 104, 13);
 }
 
 .container {
@@ -199,4 +200,16 @@ label {
         transform: translate(-50%, -50%) scale(1); 
         opacity: 0;
     }
+}
+
+.astro-box {
+    border: 2px solid purple;
+    margin-top: -257px;
+    margin-left: 38%;
+}
+
+.astro {
+    max-height: 250px;
+    min-height: 200px;
+    margin: auto;
 }
