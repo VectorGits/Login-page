@@ -24,7 +24,7 @@ h2 {
     /* padding: 100px 0; */
     /* background-image: linear-gradient(to right, #41105f, #302430); */
     color: #FFF;
-    border: 3px solid green;
+    /* border: 3px solid green; */
     /* height: 100vh; */
     max-width: 1024px;
     margin: auto;
@@ -32,7 +32,7 @@ h2 {
 
 .row {
     display: flex;
-    border: 2px solid rgb(216, 104, 13);
+    /* border: 2px solid rgb(216, 104, 13); */
 }
 
 .container {
@@ -121,7 +121,6 @@ label {
     position: relative;
     appearance: none;
     isolation: isolate;
-    appearance: none;
     font-size: 0.9em;
     padding: 5px 10px;
     background-color: #9747ff;
@@ -157,7 +156,6 @@ label {
     place-items: center;
     position: relative;
     isolation: isolate;
-    appearance: none;
     font-size: 0.9em;
     padding: 5px 35px;
     background-image: linear-gradient(to right, #a83af1, #e90ec4);
@@ -203,7 +201,7 @@ label {
 }
 
 .astro-box {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     margin-top: -257px;
     margin-left: 38%;
 }
