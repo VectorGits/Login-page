@@ -24,8 +24,10 @@ h2 {
     /* padding: 100px 0; */
     /* background-image: linear-gradient(to right, #41105f, #302430); */
     color: #FFF;
-    border: 3px solid green;
-    height: 100vh;
+    /* border: 3px solid green; */
+    /* height: 100vh; */
+    max-width: 1024px;
+    margin: auto;
 }
 
 .row {
@@ -38,17 +40,17 @@ h2 {
     margin: 0 auto;
     padding: 2px;
     /* height: 100vh; */
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
 }
 
 .left-box {
     background-image: linear-gradient(to right, #41105f, #302430);
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     width: 60%;
 }
 
 .box__text {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 70%;
     margin-top: 17%;
     margin-left: 7vw;
@@ -57,7 +59,7 @@ h2 {
 
 .box__form {
     width: 47%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background: #130f26;
 }
 
@@ -73,7 +75,7 @@ form {
     margin-top: 15%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid;
+    /* border: 2px solid white; */
 }
 
 label {
@@ -82,7 +84,7 @@ label {
 
 .form-group {
     margin: 25px auto 1.25rem auto;
-    border: 2px solid;
+    /* border: 2px solid white; */
     padding-top: 5px;
 }
 
@@ -107,7 +109,7 @@ label {
 .btn-box {
     /* margin: auto; */
     text-align: center;
-    border: 2px solid #dc16cd;
+    /* border: 2px solid #dc16cd; */
     margin-top: 25px;
 }
 
