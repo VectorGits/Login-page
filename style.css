@@ -212,7 +212,7 @@ label {
     margin: auto;
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .container{
     display: flex;
     flex-direction: column;
@@ -246,4 +246,16 @@ label {
     right: 2vw;
     display: none;
   }
+}
+
+@media (max-width: 560px) {
+h1 {
+    font-size: 9vw;
+}
+}
+
+@media (max-width: 420px) {
+    .btn1 {
+        width: 60%;
+    }
 }
