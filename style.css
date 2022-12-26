@@ -244,5 +244,6 @@ label {
     width: 120px;
     top:25vh;
     right: 2vw;
+    display: none;
   }
 }
