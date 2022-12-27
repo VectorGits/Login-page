@@ -221,6 +221,7 @@ label {
   .left-box{
     width: 100vw;
     height: 50vh;
+    display: none;
   }
   .box__form{
     width: 100vw;
