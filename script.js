@@ -16,7 +16,7 @@ btn1.addEventListener('click', (e) => {
         btn1.classList.remove('pulse');
     })
 })
-
+ 
 
 // For Button 2
 const btn2 = document.querySelector('.btn2');
